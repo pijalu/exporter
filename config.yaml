@@ -1,0 +1,11 @@
+database:
+  host: localhost
+  port: 3306
+  username: user
+  password: password
+  name: database
+queries:
+  - name: test1
+    query: select * from animals
+  - name: test2
+    query: select * from species
